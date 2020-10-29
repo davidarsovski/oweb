@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Добредојдовте </title>
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 9vh;
+    background-color: royalblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-links{
+    display:flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a {
+    color: darkorange;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family:'Poppins', sans-serif ;
+}
+nav a:hover {
+    color: black;
+
+}
+.para{
+    font-family: 'Raleway',Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    text-align: justify;
+    text-indent: 1em;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    color:white;
+
+}
+.para1{
+    font-family:'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    text-align: justify;
+    text-indent: 1em;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    color:white;
+}
+.para2{
+    font-family: 'Raleway',Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    text-align: justify;
+    text-indent: 1em;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    color:white;
+}
+
+
+p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    color:white;
+}
+
+body{
+    background-color: slategray;
+}
+
+
+@media screen and (max-width: 1024 px){
+    .nav-links{
+    width: 60%;
+}
+}
+
+ul li {
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: royalblue;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size:20px;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    display: block;
+}
+ul li a:hover{
+    background-color: deepskyblue;
+}
+ul li ul li{
+    display:none;
+}
+ul li:hover ul li{
+    display: block;
+}
+.floated{
+    background-color: royalblue;
+    font-size: 1.5em;
+    float: left;
+    padding:0.4em;
+    width: 30%;
+   
+    
+}
+.middle{
+    font-size: 2.0em;
+    text-align: middle;
+    margin-left: 30%;
+    padding-bottom: 60px;
+    text-shadow: -4px 4px 6px black;
+    font-family: 'Poppins',sans-serif;
+    color: darkorange;
+    
+}
+ 
+ .para a{
+    text-decoration: none;
+    color:white;
+}
+.para2 a{
+    text-decoration: none;
+    color:white;
+}
+.para2 a:hover{
+    text-decoration: underline;
+    color:skyblue;
+}
+.para a:hover{
+    text-decoration: underline;
+    color:darkorange;
+}
+.para1 a{
+    text-decoration: none;
+    color:white;
+}
+.para1 a:hover{
+    text-decoration: underline;
+    color:skyblue;
+}
+.p1{
+    color:darkorange
+}
+
+
+section {
+    border: 1px solid darkorange;
+}
+.roundedimg{
+    border: 3px solid royalblue;
+    border-radius: 50px;
+    float: right;
+    width: 8%;
+    height 8%;
+    margin-bottom: .8em;
+    margin-left: .8em;
+    margin-top: .4em;
+    margin-right: .4em;
+}
+.roundedimg1{
+    border: 3px solid black;
+    float: right;
+    width: 10%;
+    height 10%;
+    margin-bottom: .4em;
+    margin-left: .8em;
+    margin-top: .4em;
+    margin-right: .4em;
+}
+.logo{
+    float: left;
+    width: 3.5%;
+    height: 3.5%;
+    margin-left: 10px;
+
+}
+
+.img1{
+    margin-bottom: 0.6em;
+    margin-left: 1.8em;
+    margin-top: .4em;
+    margin-right: 5.0em;
+    border-radius: 50px;
+    border: 3px solid royalblue;
+    width: 8%;
+    height: 8%;
+}
+.img2{
+    margin-right:0.1em;
+    margin-top: 0.4;
+    margin-left: 1200px;
+    
+}
+.img3{
+    margin-bottom: 0.6em;
+    margin-left: 1.8em;
+    margin-top: .4em;
+    margin-right: 5.0em;
+    border-radius: 0px;
+    border: 3px solid royalblue;
+    width: 18%;
+    height: 18%;
+}
+.comment{
+    margin-left: 0px;
+}
+.comment1{
+    margin-left: 50px;
+    margin-top: 1px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:  royalblue;
+  text-align: right;
+}
+div.background{
+    background-image: url(grass.jpg);
+    background-position: 100% center;
+    background-origin: content-box;
+    background-repeat: repeat;
+}
+div.background1{
+    background-image: url(netflix-logo.png);
+    background-position: 100% center;
+    background-origin: content-box;
+    background-repeat: repeat;
+}
+div.background2{
+    background-image: url(tommorrowland.jpg);
+    background-position: 100% center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+}
+div.background3{
+    background-image: url(baking.jpg);
+    background-position: 100% center;
+    background-origin: content-box;
+    background-repeat: repeat;
+}
+div.background4{
+    background-image: url(ink.jpg);
+    background-position: 100% center;
+    background-origin: content-box;
+    background-repeat: repeat;
+}
+.tab{
+    width:400px;
+    height:300px;
+    background-color: rgb(223, 28, 28);
+    margin-left: 80px;
+    
+    padding:10px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    border-color: black;
+}
+.tab a{
+    text-decoration: none;
+    color:black;
+}
+.tab a:hover{
+    text-decoration: underline;
+    color:darkorange;
+}
+.datetime{
+    
+    margin-left: 1237px;
+}
+
+</style>
+</head>
+<body>
+    <nav>
+        
+        <img src="moelogo2.jpg" class="logo" alt="Logo">
+        
+        <ul class="nav-links">
+            <li><a href="#bio">Биографија</a></li>
+            <li><a href="#hobbys">Хоби</a>
+                <ul>
+                   <li><a href="#music">Музика</a></li>
+                   <li><a href="#food">Храна</a></li>
+                   <li><a href="#movies">Филмови</a></li>
+                   <li><a href="#sport">Спорт</a></li>
+                   
+                </ul>
+            </li>
+            <li><a href="#gallery">Галерија</a></li>
+            <li><a href="#blog">Блог</a></li>
+            <li><a href="#anketa">Анкета</ahref></li>
+            <li><a href="#contact">Контакт</a></li>
+        </ul>
+        
+    </nav>
+    
+    
+    <section>
+     <h1 class="middle">Добредојдовте на мојата прва веб-страна!</h1>
+    </section>
+     <section>
+        <h1 id = "bio" class="floated" >Биографија</h1>
+        <img src="METEOR17069.JPG" class="roundedimg" alt="David">
+         <p class="para">Давид Арсовски е роден на 8ми јануари 2000та година во Скопје. Основно училиште завршив
+              во <a href="https://www.grigorprlicev.edu.mk/">ОУ Григор Прличев</a> во 2014та година. За време на своето основно образование учевствував на голем 
+              број натпревари, постигнувајќи значајни резултати претставувајќи го своето училиште. Своето понатамошно 
+              образование го продолжив во скопската гимназија <a href="https://rjk.edu.mk/">Раде Јовчевски- Корчагин</a>. За време на четирите години поминати 
+              во ова училиште стекнав многу пријатели, но и многу знаење и искуство благодарение на одличниот наставен кадар.
+               Гимназиското образование го завршив во 2018та година. Сега сум студент од 3та година на<a href="https://feit.ukim.edu.mk/"> Факултетот за електротехника и информациски 
+               технологии</a> при Универзитетот Кирил и Методиј во Скопје, на насоката за Компјутерски технологии и инженерство. 
+            Максимално сум посветен на студиите, а слободното време се обидувам да го искористам на најдобар начин со семејството 
+            и пријателите. Повеќе за мене и моите активности може да дознаете во категориите на веб-странава.
+             </p>
+        </section>
+    <section>
+        <div class="background2">
+         <h1 id = "music" class="floated">Музика</h1>
+         <p class="para" >
+            Најчесто слушам странска музика, најмногу поп и електронска.
+            За слушање музика најмногу ги користам <a href="https://www.youtube.com/">YouTube</a> и <a href="https://www.spotify.com/mk/">
+            Spotify</a>.
+            Од артистите и групите што ги слушам би ги издвоил:</p>
+            <p>
+                <a href="https://www.youtube.com/user/xoxxxoooxo">
+                <img src="theweeknd.jpg" class="img1" alt="The Weeknd" ></a>
+                
+                <a href="https://www.youtube.com/channel/UCEdvpU2pFRCVqU6yIPyTpMQ">
+                <img src="marshmello.jpg" class="img1" alt="Marshmello"></a>
+               
+                <a href="https://www.youtube.com/user/KygoMusic">
+                    <img src="kygo.jpg" class="img1" alt="Kygo"></a>
+                    
+                    <a href="https://www.youtube.com/user/EdSheeran">
+                        <img src="edsheeran.jpg" class="img1" alt="EdSheeran"></a>
+                        
+                        
+                        <a href="https://www.youtube.com/user/ColdplayVEVO">
+                            <img src="coldplay.jpg" class="img1" alt="Coldplay"></a>
+                            
+                            <a href="https://www.youtube.com/user/Maroon5">
+                                <img src="maroon5.jpg" class="img1" alt="Maroon5"></a>
+            
+            </p>
+
+            <p class="para1">
+            Музиката е најдобриот начин за релаксирање после долг и напорен ден.
+            Таа ми помага да ја одржам концентрацијата додека работам на решавање на одредени проблеми и проекти, како и додека се подготвувам за испитните сесии.
+            Исто така е одлично надополнување додека возам велосипед и трчам. 
+          </p>  
+        </div>
+        </section>
+    <section>
+        <div class="background3">
+         <h1 id = "food" class="floated">Храна</h1>
+        <p class="para"> 
+            Во категоријата омилени јадења со сигурност на прво место би ги 
+            вброил бургерите. Омилени бургери ми се бургерите од <a href="https://www.facebook.com/waltersbakingbread/"> Baking Bread</a>
+            за кои што моментално сметам дека се најдобри во градот.
+            Голем љубител сум и на италијанската кујна особено на пицата и пастата.
+            Неретко знам да влезам и во кујна и самиот да приготвам нешто.
+            Сакам да експериментирам со состојките и со задоволство го пратам<a href="https://www.youtube.com/user/gordonramsay"> Гордон Ремзи</a>, а 
+            од македонските <a href="https://www.youtube.com/c/GotvimeSoFico/videos">Филип Поповски</a> .
+            Исто така би го издвоил <a href="https://en.wikipedia.org/wiki/MasterChef_Australia">Мастершеф</a> како одлична Тв емисија од каде може многу да се
+            научи. 
+        </p>
+    </div>
+    </section>
+    <section>
+        <div class="background1">
+        <h1 id = "movies" class="floated">Филмови</h1>
+        <p class="para"> 
+            Иако гледањето филмови и серии многу почесто е дел од моето секојдневие
+            во летните месеци кога не сум посветен на студирањето, сепак неретко се 
+            случува да изгледам по некој филм и серија кои се актуелни во периодот.
+            Во прилог е табелата со моите омилени филмови и ТВ-серии  :
+        </p>
+        <p >
+            <table border="2" class="tab">
+                
+                <thead>
+                    <tr>
+                        <th>Филм</th>
+                        <th>Тв серија</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                           <a href="https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films">Marvel филмовите</a>
+                        </td>
+                        <td>
+                            <a href="https://www.imdb.com/title/tt6468322/"> Money Heist</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://www.imdb.com/title/tt6966692/?ref_=fn_al_tt_1">Green Book </a>
+                        </td>
+                        <td>
+                            <a href="https://www.imdb.com/title/tt5753856/?ref_=nv_sr_srsg_0">Dark</a>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td>
+                            <a href="https://www.imdb.com/title/tt3263904/?ref_=fn_al_tt_1">Sully: Miracle on the Hudson</a>
+                        </td>
+                        <td><a href="https://www.imdb.com/title/tt7134908/?ref_=nv_sr_srsg_0">Elite</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://www.imdb.com/title/tt1478839/?ref_=nv_sr_srsg_0">The art of racing in the rain</a>
+                        </td>
+                        <td>
+                            <a href="https://www.imdb.com/title/tt1600194/?ref_=nv_sr_srsg_0"> Hawaii 5-0</a>
+                        </td>
+                    </tr>
+                </tbody>
+                </table>
+            </p>
+        </div>
+    </section>
+    <section>
+        <div class="background">
+            <h1 id = "sport" class="floated">Спорт</h1>
+        <p class="para">
+            Огромен љубител сум на спортот и со задоволство ги пратам скоро сите спортови.
+            Сепак доколку морам да изберам еден, тогаш би го избрал фудбалот.
+            Страствен навивач сум на<a href="https://www.fcbarcelona.com/en/"> фудбалскиот клуб Барселона</a> и со гордост можам да споделам дека
+            не памтам кога последен пат сум пропуштил нивни натпревар. Покрај фудбалот, уживам и во 
+            ракометот и многу често во слободно време присутен сум на трибините на салата Јане Сандански
+            каде што со моите пријатели го бодрам актуелниот европски шампион <a href="https://rkvardar.mk/en">РК Вардар</a>. Атмосферата на овие
+            натпревари е една од подобрите во Европа, а чувството е прекрасно. Секако не би можел а да не 
+            го издвојам и тенисот и според мене најдобриот тенисер во историјата според мене,<a href="https://novakdjokovic.com/"> Новак Џокович</a>.
+            Токму овој тенисер беше причината долги години активно да тренирам тенис. Задоволството е
+            поголема кога самиот си дел од спортските натпревари па затоа многу често со пријателите играм
+            фудбал и кошарка, а во летните периоди и тенис.
+            За крај би ги издвоил прошетките во <a href="https://parkovi.com.mk/en/gazi-baba-2/">парк шумата Гази Баба</a> која се наоѓа во непосредна близина на 
+            моето живеалиште. Со задоволство би ја препорачал на сите да ја посетат бидејќи е одлично место за 
+            одмор и релаксација.
+        </p>
+        
+    </div>
+    </section>
+    
+    <section>
+            <h1 id = "gallery" class="floated">Галерија</h1>
+            <p class="para">
+                
+                <img src="gazibaba.jpg" class="img3" alt="Park Shuma" ></a>
+                <br>
+                <input type = "image" src = "whiteheart.jpg" alt="Heart" height=60px; width="50px" style="margin-left: 60px;" >
+              
+                
+
+                   <label> 
+                       <textarea class="comment"  name = "comments" 
+                       rows = "4" cols = "24" placeholder="Внеси коментар"></textarea>
+                 </label>
+                 
+            
+            </p>
+    </section>
+    <section>
+        
+            <h1 id = "blog" class="floated">Блог</h1>
+            <img src="ink.jpg" class="roundedimg1" alt="Ink">
+        <p class="para">
+           <p> <strong>Одберете ја темата за која би пишувале:</strong><br>
+            <label>Хоби
+               <input name = "howtosite" type = "radio"
+                  value = "Hobby" checked></label>
+            <label>Храна
+               <input name = "howtosite" type = "radio" 
+                  value = "Food"></label> 
+            <label>Спорт
+               <input name = "howtosite" type = "radio" 
+                  value = "Sport"></label>
+                  <label>Филмови
+                    <input name = "howtosite" type = "radio" 
+                       value = "Movies"></label>
+                       <label>Литература
+                        <input name = "howtosite" type = "radio" 
+                           value = "Literature"></label>
+            <label></p>
+                
+                <p><input type = "datetime-local" class="datetime"> 
+                    <label>
+                        <textarea name = "comments"
+                           rows = "50" cols = "200" ></textarea>
+                     </label>
+                </p>
+                   
+             
+        </p>
+    
+    </section>
+    <section>
+            <h1 id ="anketa" class="floated">Анкета</h1>
+        <p class="para2">
+            Ве молам пополнете ја анкетата, со цел подобрување на веб-страната.
+            <form method="post" autocomplete="on" action="#">
+             <input type="hidden" name="recipient"
+             value="#">
+             <input type="hidden" name="subject"
+             value="#">
+             <input type="hidden" name="redirect"
+             value="#">
+            </p>
+       
+    
+            <p>
+             <label>Име:
+                 <input  type="text" id="firstName"
+                 placeholder="Име"
+                 size="30" maxlength="40" required> 
+             </label>
+            </p>
+        <p>
+             <label>Презиме:
+                 <input  type="text" id="surName"
+                 placeholder="Презиме"
+                 size="30" maxlength="40" required>
+             </label></p>
+             <p>
+             <label>Датум на раѓање:
+                <input type = "date" />     
+             </label></p>
+            <p>
+             <label>Тел:
+                <input type = "tel" placeholder = "(###) ###-######" 
+                   pattern = "\(\d{3}\) +\d{3}-\d{6}"  /> 
+                   (+###) ###-######
+             </label></p>
+            <p>
+             <label>Меил:
+                <input type = "email" id = "email" 
+                   placeholder = "name@domain.com" required > 
+                </label></p>
+            <p>
+                <strong>Работи кои ви се допаднаа:</strong><br>
+
+                <label>Дизајнот на страната
+                   <input name = "thingsliked" type = "checkbox" 
+                      value = "Design"></label>
+                <label>Линковите
+                   <input name = "thingsliked" type = "checkbox" 
+                      value = "Links"></label>
+                <label>Сликите 
+                   <input name = "thingsliked" type = "checkbox" 
+                      value = "Images"></label>
+                      
+                    </p>
+                <p>
+                    <strong>Како пристапивте до веб-страната?:</strong><br>
+            <label>Пребарувач
+               <input name = "howtosite" type = "radio"
+                  value = "search engine" checked></label>
+            <label>Линк
+               <input name = "howtosite" type = "radio" 
+                  value = "link"></label> 
+            <label>Друго
+               <input name = "howtosite" type = "radio" 
+                  value = "other"></label></p>
+                <p>
+                  <label>Оцена за мојата веб-страна: 
+                   <select name = "rating">
+                      <option selected>Одлично</option>
+                      <option>10</option>
+                      <option>9</option>
+                      <option>8</option>
+                      <option>7</option>
+                      <option>6</option>
+                      <option>5</option>
+                      <option>4</option>
+                      <option>3</option>
+                      <option>2</option>
+                      <option>1</option>
+                      <option>Лошо </option>
+
+                        </select>
+                    </label>
+                  
+                </p>
+
+                <p><label>Доколку имате забелешки и сугестии 
+                    би ви бил благодарен:<br>
+                    <textarea name = "comments"
+                       rows = "4" cols = "36" placeholder="Внеси коментар"></textarea>
+                 </label></p>
+            <p class="p1">
+                <input type = "submit" value = "Потврди" >
+                <input type = "reset" value = "Избриши" >
+            </p>
+            
+           </section>
+        <section>
+        
+            <h1 id = "contact" class="floated">Контакт</h1>
+            <p class="para2">Можете да ме контактирате преку
+                мојата меил адреса или социјалните мрежи.
+            </p>
+            <p class="para1">
+            
+            <a href="mailto:davidarsovski1@gmail.com">
+            <img src="gmail.png" class="img2" alt="Mail" width="40" height="40">
+        </a>
+            <a href="https://www.facebook.com/david.arsovski.3/">
+                <img  src="fb.png"  alt="Facebook" width="40" height="40" >
+            </a>
+                <a href="https://www.instagram.com/david.arsovski/?hl=en" >
+                    <img src="instagram.png"  alt="Instagram" width="40" height="40">
+            </a>
+        </p>
+        
+    </section>
+    <div class="footer">
+       
+        <p class="p1">Давид Арсовски, 2020 &copy</p>
+    </div>
+
+</body>
+
+</html>
